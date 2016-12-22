@@ -1,2 +1,9 @@
+@import "customVariables";
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-compass";
+@import "../bower_components/font-awesome/scss/font-awesome";
+@import "custom";
+//Custom Fonts from Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
