@@ -8146,7 +8146,8 @@ button.close {
     font-size: 12px; }
 
 .showcase {
-  background: url(../images/main2.jpg) no-repeat center top;
+  background: url(../images/main2.jpg) no-repeat;
+  background-position: center top;
   background-size: cover;
   height: 1600px; }
 
