@@ -8133,14 +8133,21 @@ button.close {
   overflow: visible;
   clip: auto; }
 
-.navbar .fa {
-  font-size: 14px; }
-.navbar .navbar-nav {
-  padding-left: 30px;
-  font-family: 'Oswald', sans-serif;
-  font-size: 12px; }
-.navbar .navbar-brand {
-  font-family: 'Oswald', sans-serif;
-  font-size: 12px; }
+.navbar {
+  margin-bottom: 0px; }
+  .navbar .fa {
+    font-size: 14px; }
+  .navbar .navbar-nav {
+    padding-left: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px; }
+  .navbar .navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px; }
+
+.showcase {
+  background: url(../images/main2.jpg) no-repeat center top;
+  background-size: cover;
+  height: 1600px; }
 
 /*# sourceMappingURL=app.css.map */
