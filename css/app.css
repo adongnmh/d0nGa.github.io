@@ -8164,7 +8164,7 @@ button.close {
   padding-bottom: 25px;
   text-align: center;
   background: #262626;
-  height: 600px; }
+  height: 100%; }
   .section-1 .fa {
     font-size: 60px; }
   .section-1 .paragraph-1 {
