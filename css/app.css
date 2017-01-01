@@ -8,6 +8,7 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
 @import url("https://fonts.googleapis.com/css?family=Space+Mono");
 @import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -8135,20 +8136,47 @@ button.close {
 
 .navbar {
   margin-bottom: 0px; }
+@font-face {
+  .navbar {
+    font-family: "Anurati-Regular";
+    src: url(../fonts/Anurati-Regualr.otf); } }
   .navbar .fa {
-    font-size: 14px; }
+    font-size: 10px; }
   .navbar .navbar-nav {
     padding-left: 30px;
     font-family: 'Oswald', sans-serif;
     font-size: 12px; }
   .navbar .navbar-brand {
     font-family: 'Oswald', sans-serif;
-    font-size: 12px; }
+    font-size: 18px;
+    padding-right: 75px; }
 
 .showcase {
-  background: url(../images/main2.jpg) no-repeat;
+  background: url(../images/main3.jpg) no-repeat;
   background-position: center top;
   background-size: cover;
-  height: 1600px; }
+  height: 1200px; }
+
+.section-1 {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  background: #262626;
+  height: 600px; }
+  .section-1 .fa {
+    font-size: 60px; }
+  .section-1 .paragraph-1 {
+    font-size: 12px;
+    padding-top: 25px;
+    font-family: 'Roboto';
+    text-align: center; }
+  .section-1 .btn {
+    background: whitesmoke; }
+
+.footer {
+  background: #262626;
+  text-align: center; }
 
 /*# sourceMappingURL=app.css.map */

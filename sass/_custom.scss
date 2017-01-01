@@ -1,7 +1,11 @@
 .navbar {
+    @font-face {
+        font-family: "Anurati-Regular";
+        src: url(../fonts/Anurati-Regualr.otf);
+    }
     margin-bottom: 0px;
     .fa {
-        font-size: 14px;
+        font-size: 10px;
     }
     .navbar-nav {
         padding-left: 30px;
@@ -10,13 +14,41 @@
     }
     .navbar-brand {
         font-family: 'Oswald', sans-serif;
-        font-size: 12px;
+        font-size: 18px;
+        padding-right: 75px;
     }
 }
 
 .showcase {
-    background: url(../images/main2.jpg) no-repeat;
+    background: url(../images/main3.jpg) no-repeat;
     background-position: center top;
     background-size: cover;
-    height: 1600px;
+    height: 1200px;
+}
+
+.section-1 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    background: $main-color;
+    .fa {
+        font-size: 60px;
+    }
+    .paragraph-1 {
+        font-size: 12px;
+        padding-top: 25px;
+        font-family: 'Roboto';
+        text-align: center;
+    }
+    .btn {
+        background: whitesmoke;
+    }
+    height: 600px;
+}
+
+.footer {
+    background: $main-color;
+    text-align: center;
 }
